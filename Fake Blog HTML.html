@@ -8,12 +8,76 @@
     <body>
         <h1>The Fog Blog</h1>
         <img src="https://www2.shutterstock.com/blog/wp-content/uploads/sites/5/2017/01/white-fog-evergreen-1024x683.jpg" alt="Picture of Fog" height="250" width="250">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet neque vulputate leo porta pellentesque at et elit. Mauris bibendum quam vel faucibus lobortis. Pellentesque eu lorem velit. Donec sed risus viverra, interdum urna quis, fringilla urna. Etiam eu leo nunc. Phasellus eget tincidunt sapien. Nam maximus finibus mauris vitae fermentum.</p>
+        <p>Fog consists of visible cloud water droplets or ice crystals suspended in the air at or near the Earth's surface. Fog can be considered a type of low-lying cloud and is heavily influenced by nearby bodies of water, topography, and wind conditions. In turn, fog has affected many human activities, such as shipping, travel, and warfare.</p>
         <a href="https://en.wikipedia.org/wiki/Fog">Everything you need to know about fog right here!!</a><br>
         
         <p>Here are the varying amount of density fog can be:
         <ul>
             <li>Not dense at all</li>
             <li>Kind of dense</li>
-            <li></li>
-            <li>Not very</li>
+            <li>Dense</li>
+            <li>Super Dense</li>
+        </ul>
+
+        <table>
+            <div id="table">
+                <thead>
+                    <th>Places:</th>
+                    <th>Amount of time there is fog:</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>San Francisco</td>
+                        <td>Lots</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>Las Vegas</td>
+                        <td>None</td>
+                    </tr>
+                </tbody>   
+                <tbody>
+                    <tr>
+                        <td>Chicago</td>
+                        <td>Some</td>
+                    </tr>
+                </tbody>
+            </div>
+        </table><br>
+
+        <form>
+            <p>Please fill out this survey:</p>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><br>
+
+            <label for="sign_up">Sign up for the email list</label>
+            <input type="radio" id="sign_up" name="sign_up">
+
+            <label for="not_sign_up">Don't sign up for the email list</label>
+            <input type="radio" id="not_sign_up" name="not_sign_up"><br>
+
+            <br><label for="which_fog">Which fog interests you?</label>
+            <select name="which_fog">
+                <<option value="Light Fog"></option>
+                <<option value="Normal Fog"></option>
+                <<option value="Heavy Fog"></option>
+            </select><br>
+
+            <p>Where did you here about us? (Check all that apply)</p>
+            <label for="facebook">Facebook</label>
+            <input type="checkbox" id="facebook" name="site" value="facebook">
+
+            <label for="reddit">Reddit</label>
+            <input type="checkbox" id="reddit" name="site" value="reddit">
+
+            <label for="twitter">Twitter</label>
+            <input type="checkbox" id="twitter" name="site" value="twitter">
+
+            <label for="other">Other</label>
+            <input type="checkbox" id="other" name="site" value="other"><br>
+
+            <br><input type="submit" value="submit">
+        </form>
+</html>
+    
